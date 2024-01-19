@@ -1,5 +1,6 @@
 <?php
 
-echo "PHP on Vercel";
+$response = ['message' => 'Hello PHP Vercel!'];
+echo json_encode($response);
 
 ?>
